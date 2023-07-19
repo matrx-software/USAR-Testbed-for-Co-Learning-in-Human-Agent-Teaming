@@ -1,0 +1,107 @@
+{
+  "world" :
+  {
+    "shape" : [40, 23],
+    "image" : "world_kennis.png",
+    "tick_duration" : 0.1,
+    "max_ticks" : 10000
+  },
+
+
+
+  "rooms" :
+  [
+    {
+      "top_left" : [11, 9],
+      "dimensions" : [5 ,6],
+      "door" : "right",
+      "doorOpen" : true,
+      "collapsed" : false
+    },
+    {
+      "top_left" : [35, 1],
+      "dimensions" : [5 ,6],
+      "door" : "left",
+      "doorOpen" : true,
+      "collapsed" : false
+    },
+    {
+      "top_left" : [33, 15],
+      "dimensions" : [6 ,5],
+      "door" : "top",
+      "doorOpen" : true,
+      "collapsed" : false
+    }
+  ],
+
+
+
+  "command_post" :
+  {
+    "top_left" : [21, 0],
+    "dimensions" : [6 ,5],
+    "door" : "bottom"
+  },
+
+
+
+  "victims" :
+  [
+    {
+      "location" : [38, 2],
+      "alive" : true,
+      "treatment_need" : 1,
+      "need_increase_time" : 0
+    },
+    {
+      "location" : [13, 12],
+      "alive" : true,
+      "treatment_need" : 1,
+      "need_increase_time" : 0
+    },
+    {
+      "location" : [34, 17],
+      "alive" : true,
+      "treatment_need" : 1,
+      "need_increase_time" : 0
+    },
+    {
+      "location" : [37, 18],
+      "alive" : true,
+      "treatment_need" : 1,
+      "need_increase_time" : 0
+    }
+  ],
+
+
+
+  "rescue_worker" :
+  {
+    "name" : "rescue_worker",
+    "location" : [23, 2],
+    "image": "human.png"
+  },
+
+
+
+    "explorer" :
+  {
+    "name" : "explorer",
+    "location" : [23, 1],
+    "image" : "robot.png",
+    "color": "#00ffff"
+  },
+
+  "hq_agent" :
+  {
+    "name" : "Headquarters",
+    "location": [38,21],
+    "image" : "HQ_icon_base.png"
+  },
+
+    "victim_god_agent" :
+  {
+    "name" : "Victim_god_agent",
+    "location": [38,21]
+  }
+}

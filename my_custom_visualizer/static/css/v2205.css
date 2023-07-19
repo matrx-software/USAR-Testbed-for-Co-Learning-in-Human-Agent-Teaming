@@ -1,0 +1,57 @@
+/* V2205 WP3 changes */
+
+#chat_form_input, 
+#chat_form_submit,
+#new_chat_button,
+.contact {
+    display: none;
+    
+}
+
+#chatroom_listitem_0 {
+    display: block;
+}   	
+
+#endscreen {
+    color: #d5d5d5;
+    position: absolute;
+    background: #003400;
+    height: 70vh;
+    top: 15vh;
+    width: 100%;
+    padding: 10% 15%;
+    z-index: 100000000000;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    display: none;
+    text-align: center;
+}
+
+#endscreen .action-button {
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.action-button button {
+    color: black;
+    background-color: #ffffff;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 20px;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: all 150ms linear;
+}
+
+.action-button button:hover {
+    background-color: #a3a3a3;
+}

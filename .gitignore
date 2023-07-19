@@ -1,0 +1,23 @@
+# Build-related and cache
+build/
+dist/
+matrx.egg-info/
+.pypirc
+*.pyc
+*.stackdump
+pypi_tokens.txt
+
+# Logging
+log_data/
+*.log
+
+# Virtual environments
+.venv/
+
+# IDEs
+.idea/
+.vscode/
+*.code-workspace
+
+
+experiment_logs/*
